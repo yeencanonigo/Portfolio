@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to Artist World</h1>
+    <p class="lead">"Art is not what you see, but what you make others see."</p>
+</div>
+
+<div class="container">
+<div class="gallery">
+<div class="gallery-item">
+    <p>Sunset on Village River</p>
+    <img src="https://images.saatchiart.com/saatchi/4169/art/2435250/1505296-HSC00001-7.jpg" 
+    class="rounded" alt="Image 1">
+</div>
+<div class="gallery-item">
+    <p>Starry Night</p> 
+    <img src="https://cdn.britannica.com/78/43678-050-F4DC8D93/Starry-Night-canvas-Vincent-van-Gogh-New-1889.jpg" 
+    class="rounded" alt="Image 2">
+</div>
+<div class="gallery-item">
+    <p>Wheat Field with Cypresses</p>
+    <img src="https://d16kd6gzalkogb.cloudfront.net/magazine_images/Vincent-van-Gogh-Whaet-Field-with-Cypresses.-Image-via-wikimedia.org_.jpg" 
+    class="rounded-" alt="Image 3">
+</div>
+
+<div class="gallery">
+<div class="gallery-item">
+    <p>Mount Fuji</p>
+    <img src="https://cdn.openart.ai/stable_diffusion/e2c2bfe01fbbef7eaa515471b0351496286f548c_2000x2000.webp" 
+    class="rounded" alt="Image 4">
+</div>
+<div class="gallery-item">
+    <p>Wheatfield with Crows</p>
+    <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i6b743a5bd2529b6a/version/1500387064/unmissable-paintings-in-europe-la-clairvoyance-by-magritte.jpg" 
+    class="rounded" alt="Image 5">
+</div>
+<div class="gallery-item">
+    <p>Water Lilies</p>
+    <img src="https://d3qxj82trr8cp9.cloudfront.net/artworks/artwork-/thumbnail/compressed/14_01_18_10_28_19_Waterlilies-8.jpg" 
+    class="rounded" alt="Image 6">
+</div>
+
+<div class="gallery">
+<div class="gallery-item">
+    <p>Sunset in Venice</p>
+    <img src="https://res.cloudinary.com/indonesiadesign/image/upload/f_auto,fl_progressive/Claude-Monet-1.jpg" 
+    class="rounded" alt="Image 7">
+</div>
+<div class="gallery-item">
+    <p>The Flower Carrier</p>
+    <img src="https://www.portraitflip.com/wp-content/uploads/2023/10/20.-The-Flower-Carrier-1.jpg" 
+    class="rounded" alt="Image 8">
+</div>
+<div class="gallery-item">
+    <p>The Steer(The Bull)</p>
+    <img src="https://images.saymedia-content.com/.image/t_share/MTc1MDE2MjUyMzYzNTgxMTYw/10-animal-paintings-by-famous-artists.jpg" 
+    class="rounded" alt="Image 9">
+    </div>
+
+<div class="gallery">
+<div class="gallery-item">
+    <p>SELLER OF ALCATRAZES</p>
+    <img src="https://i.pinimg.com/736x/93/6e/21/936e216120206b901e65db3745eaab36.jpg"
+    class="rounded" alt="image 10"> 
+</div>
+<div class="gallery-item">
+    <p>The Shipwreck</p>
+    <img src="https://clumphd.com/wp-content/uploads/2020/10/Power-of-Art-Joseph-Mallord-William-Turner.jpg"
+    class="rounded" alt="image 11"> 
+</div>
+<div class="gallery-item">
+    <p>The Raft of the Medusa</p>
+    <img src="https://media.timeout.com/images/105222685/750/562/image.jpg"
+    class="rounded" alt="image 12">
+</div>
+
+<div class="gallery">
+<div class="gallery-item">
+    <p>Flaming June</p>
+    <img src="https://www.brushwiz.com/assets/images/most-famous-paintings/top_100_paintings_flaming_june_by_frederic_lord_leighton_i45.jpg"
+    class="rounded" alt="image 13"> 
+</div>
+<div class="gallery-item">
+    <p>Death of Marat</p>
+<img src="https://artincontext.org/wp-content/uploads/2022/01/Famous-Paintings-of-Assassinations.jpg"
+    class="rounded" alt="image 14"> 
+</div>
+<div class="gallery-item">
+    <p>Girl with a Candle</p>
+    <img src="https://i.pinimg.com/736x/cb/23/40/cb2340358866cbaaeb8c8b68bf71340e.jpg"
+    class="rounded" alt="image 15">
+</div>
+
+<div class="gallery">
+<div class="gallery-item">
+    <p>Old Woman Reading</p>
+    <img src="https://most-famous-paintings.com/Art.nsf/O/AQQJ8N/$File/Gerrit-Gerard-Dou-Portrait-of-an-old-woman-reading.jpg"
+    class="rounded" alt="image 16"> 
+</div>
+<div class="gallery-item">
+    <p>Old Woman</p>
+<img src="https://www.1st-art-gallery.com/media/catalog/product/cache/ea927a5c7c84376255966669ef3ff00d/o/r/original_18673.jpg"
+class="rounded" alt="image 17"> 
+</div>
+<div class="gallery-item">
+    <p>Girl with Pearl Earring</p>
+    <img src="https://5bestincity.com/blog/wp-content/uploads/2022/04/World-famous-painting-Girl-with-a-pearl-earring-865x1024.jpg"
+    class="rounded" alt="image 18">
+</div>
+
+</div>
+    <div class="gallery">
+<div class="gallery-item">
+    <p>Mona Lisa</p>
+  <img src="https://i.etsystatic.com/6784151/r/il/18782b/409353175/il_fullxfull.409353175_5wqb.jpg"
+class="rounded" alt="image 19"> 
+</div>
+<div class="gallery-item">
+    <p>Mater Dolorosa</p>
+<img src="https://media.mutualart.com/Images//2020_11/29/21/214809694/2859e30c-a583-475f-911c-114a9cfabeb0.Jpeg"
+class="rounded" alt="image 20"> 
+</div>
+<div class="gallery-item">
+    <p>Self-Portrait Painting</p>
+    <img src="https://1.bp.blogspot.com/-5Ww3o2EhLcU/YBXdK-nTnMI/AAAAAAABKlU/L27BNKk_1ach2carphvSin9rxwYHnFyrwCLcBGAsYHQ/s880/Amrita%2BSher-Gil%2B16.jpg"
+    class="rounded" alt="image 21">
+</div>
+</body>
+</html>
